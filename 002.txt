@@ -1,0 +1,14 @@
+# 簡單的個人資訊程式碼
+
+# 提示使用者輸入資訊
+name = input("請輸入您的姓名: ")
+age = input("請輸入您的年齡: ")
+location = input("請輸入您的居住地: ")
+email = input("請輸入您的電子郵件地址: ")
+
+# 顯示輸入的資訊
+print("\n您輸入的個人資訊如下:")
+print("姓名: " + name)
+print("年齡: " + age)
+print("居住地: " + location)
+print("電子郵件地址: " + email)
