@@ -1,0 +1,25 @@
+import time
+
+def make_delicious_candy():
+    print("開始製作超好吃的糖果...")
+    time.sleep(2)  # 模擬製作過程，等待2秒
+
+    print("準備糖漿...")
+    time.sleep(1)
+
+    print("加入香草和巧克力...")
+    time.sleep(1)
+
+    print("搅拌搅拌搅拌...")
+    time.sleep(2)
+
+    print("將混合物倒入糖果模具...")
+    time.sleep(1)
+
+    print("冷卻中...")
+    time.sleep(3)
+
+    print("糖果製作完成！🍬🎉")
+
+# 執行製作糖果的程式碼
+make_delicious_candy()
